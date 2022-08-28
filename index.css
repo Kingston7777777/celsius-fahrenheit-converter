@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    color: white;    
+}
+#enter{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 18px;  
+    position: relative;
+    left: 340px;  
+}
+#textBox{
+    position: relative;
+    left: 340px;
+    font-size: 18px;
+      
+}
+#convert{
+    position: relative;
+    left: 340px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 18px;  
+}
+#celsius{
+    position: relative;
+    left: 340px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 18px;  
+}
+#cButton{
+    position: relative;
+    left: 340px;
+}
+#fahrenheit{
+    position: relative;
+    left: 340px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 18px;  
+}
+#fButton{
+    position: relative;
+    left: 340px;
+}
+#button{
+    position: relative;
+    left: 420px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+}
+#result{
+    position: relative;
+    left: 340px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 18px;  
+}
+#tempLabel{
+    position: relative;
+    left: 340px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 18px;  
+}
+
+h1{
+    border: 1px solid;
+    font-size: 50px;  
+    border-bottom-style: solid;
+    width: 700px;
+    text-align: center; 
+    text-shadow: 0px -5px 5px red, 0px 2px 2px yellow; 
+    background-color: black; 
+    position: relative;
+    left: 180px;
+
+    animation: clockAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes clockAnimation{
+    50% {transform: scale(0.5,0.5);}
+}
+
+
+
