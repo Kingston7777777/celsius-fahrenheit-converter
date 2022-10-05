@@ -1,6 +1,7 @@
 body{
     background-color: black;
-    color: white;    
+    color: white; 
+    overflow: hidden;   
 }
 #enter{
     font-family: sans-serif;
@@ -8,12 +9,14 @@ body{
     font-weight: bold; 
     font-size: 18px;  
     position: relative;
-    left: 340px;  
+    left: 340px;
+    top: 10px;  
 }
 #textBox{
     position: relative;
     left: 340px;
     font-size: 18px;
+    top: 10px;
       
 }
 #convert{
@@ -22,7 +25,8 @@ body{
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold; 
-    font-size: 18px;  
+    font-size: 18px;
+    top: 10px;  
 }
 #celsius{
     position: relative;
@@ -30,11 +34,13 @@ body{
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold; 
-    font-size: 18px;  
+    font-size: 18px;
+    top: 10px;  
 }
 #cButton{
     position: relative;
     left: 340px;
+    top: 10px;
 }
 #fahrenheit{
     position: relative;
@@ -42,11 +48,13 @@ body{
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold; 
-    font-size: 18px;  
+    font-size: 18px;
+    top: 10px;  
 }
 #fButton{
     position: relative;
     left: 340px;
+    top: 10px;
 }
 #button{
     position: relative;
@@ -61,7 +69,8 @@ body{
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold; 
-    font-size: 18px;  
+    font-size: 18px; 
+    top: 10px; 
 }
 #tempLabel{
     position: relative;
@@ -69,19 +78,20 @@ body{
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold; 
-    font-size: 18px;  
+    font-size: 18px;
+    top: 10px;  
 }
 
 h1{
     border: 1px solid;
-    font-size: 50px;  
+    font-size: 30px;  
     border-bottom-style: solid;
-    width: 700px;
+    width: 400px;
     text-align: center; 
     text-shadow: 0px -5px 5px red, 0px 2px 2px yellow; 
     background-color: black; 
     position: relative;
-    left: 180px;
+    left: 400px;
 
     animation: clockAnimation;
     animation-duration: 5s;
@@ -92,331 +102,191 @@ h1{
     50% {transform: scale(0.5,0.5);}
 }
 
-@media (max-width: 1200px){/*Desktop laptop-992, Tablet-768, mobile-576*/
-    h1{
-        border: 1px solid;
-        font-size: 30px;  
-        border-bottom-style: solid;
-        width: 400px;
-        text-align: center; 
-        text-shadow: 0px -4px 4px red, 0px 2px 2px yellow; 
-        background-color: black; 
-        position: relative;
-        left: 150px;
-    }
-    #enter{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 18px;  
-        position: relative;
-        left: 250px;  
-    }
-    #textBox{
-        position: relative;
-        left: 250px;
-        font-size: 18px;
-    }
-    #convert{
-        position: relative;
-        left: 250px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 18px;  
-    }
-    #cButton{
-        position: relative;
-        left: 250px;
-    }
-    #celsius{
-        position: relative;
-        left: 250px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 18px;  
-    }
-    #fButton{
-        position: relative;
-        left: 250px;
-    }
-    #fahrenheit{
-        position: relative;
-        left: 250px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 18px;  
-    }
-    #button{
-        position: relative;
-        left: 290px;
-        background-color: white;
-        color: black;
-        font-size: 18px;
-    }
-    #result{
-        position: relative;
-        left: 250px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 18px;  
-    }
-    #tempLabel{
-        position: relative;
-        left: 250px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 18px;  
-    }
-        
+
+@media (max-width: 771px){  
+ 
+#enter{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 15px;  
+    position: relative;
+    left: 300px;
+    top: 10px;  
 }
-@media (max-width: 992px){
-    h1{
-        border: 1px solid;
-        font-size: 18px;  
-        border-bottom-style: solid;
-        width: 250px;
-        text-align: center; 
-        text-shadow: 0px -3px 3px red, 0px 2px 2px yellow; 
-        background-color: black; 
-        position: relative;
-        left: 150px;
-    }
-    #enter{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 16px;  
-        position: relative;
-        left: 180px;  
-    }
-    #textBox{
-        position: relative;
-        left: 180px;
-        font-size: 16px;
-    }
-    #convert{
-        position: relative;
-        left: 180px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 16px;  
-    }
-    #cButton{
-        position: relative;
-        left: 180px;
-    }
-    #celsius{
-        position: relative;
-        left: 180px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 16px;  
-    }
-    #fButton{
-        position: relative;
-        left: 180px;
-    }
-    #fahrenheit{
-        position: relative;
-        left: 180px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 16px;  
-    }
-    #button{
-        position: relative;
-        left: 200px;
-        background-color: white;
-        color: black;
-        font-size: 16px;
-    }
-    #result{
-        position: relative;
-        left: 180px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 16px;  
-    }
-    #tempLabel{
-        position: relative;
-        left: 180px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 16px;  
-    }
-        
+#textBox{
+    position: relative;
+    left: 300px;
+    font-size: 15px;
+    top: 10px;
+      
 }
-@media (max-width: 768px){
-    h1{
-        border: 1px solid;
-        font-size: 14px;  
-        border-bottom-style: solid;
-        width: 207px;
-        text-align: center; 
-        text-shadow: 0px -2px 2px red, 0px 2px 2px yellow; 
-        background-color: black; 
-        position: relative;
-        left: 150px;
-    }
-    #enter{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 14px;  
-        position: relative;
-        left: 170px;  
-    }
-    #textBox{
-        position: relative;
-        left: 170px;
-        font-size: 14px;
-    }
-    #convert{
-        position: relative;
-        left: 170px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 14px;  
-    }
-    #cButton{
-        position: relative;
-        left: 170px;
-    }
-    #celsius{
-        position: relative;
-        left: 170px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 14px;  
-    }
-    #fButton{
-        position: relative;
-        left: 170px;
-    }
-    #fahrenheit{
-        position: relative;
-        left: 170px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 14px;  
-    }
-    #button{
-        position: relative;
-        left: 200px;
-        background-color: white;
-        color: black;
-        font-size: 14px;
-    }
-    #result{
-        position: relative;
-        left: 170px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 14px;  
-    }
-    #tempLabel{
-        position: relative;
-        left: 170px;
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: bold; 
-        font-size: 14px;  
-    }
-        
+#convert{
+    position: relative;
+    left: 300px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 15px;
+    top: 10px;  
 }
-@media (max-width: 576px){
-    h1{
-        border: 1px solid;
-        font-size: 12px;  
-        border-bottom-style: solid;
-        width: 170px;
-        text-align: center; 
-        text-shadow: 0px -2px 2px red, 0px 2px 2px yellow; 
-        background-color: black; 
-        position: relative;
-        left: 120px;
-    }
+#celsius{
+    position: relative;
+    left: 300px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 15px;
+    top: 10px;  
+}
+#cButton{
+    position: relative;
+    left: 300px;
+    top: 10px;
+}
+#fahrenheit{
+    position: relative;
+    left: 300px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 15px;
+    top: 10px;  
+}
+#fButton{
+    position: relative;
+    left: 300px;
+    top: 10px;
+}
+#button{
+    position: relative;
+    left: 320px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+#result{
+    position: relative;
+    left: 300px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 15px; 
+    top: 10px; 
+}
+#tempLabel{
+    position: relative;
+    left: 300px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 15px;
+    top: 10px;  
+}
+
+h1{
+    border: 1px solid;
+    font-size: 20px;  
+    border-bottom-style: solid;
+    width: 300px;
+    text-align: center; 
+    text-shadow: 0px -0px 0px red, 0px 0px 0px yellow; 
+    background-color: black; 
+    position: relative;
+    left: 250px;
+}
+body{
+    overflow: hidden;
+}    
+}
+
+@media (max-width: 703px){  
+ 
     #enter{
         font-family: sans-serif;
         font-style: normal;
         font-weight: bold; 
         font-size: 10px;  
         position: relative;
-        left: 130px;  
+        left: 200px;
+        top: 10px;  
     }
     #textBox{
         position: relative;
-        left: 130px;
+        left: 200px;
         font-size: 10px;
+        top: 10px;
+          
     }
     #convert{
         position: relative;
-        left: 130px;
+        left: 200px;
         font-family: sans-serif;
         font-style: normal;
         font-weight: bold; 
-        font-size: 10px;  
-    }
-    #cButton{
-        position: relative;
-        left: 130px;
+        font-size: 10px;
+        top: 10px;  
     }
     #celsius{
         position: relative;
-        left: 130px;
+        left: 200px;
         font-family: sans-serif;
         font-style: normal;
         font-weight: bold; 
-        font-size: 10px;  
+        font-size: 10px;
+        top: 10px;  
     }
-    #fButton{
+    #cButton{
         position: relative;
-        left: 130px;
+        left: 200px;
+        top: 10px;
     }
     #fahrenheit{
         position: relative;
-        left: 130px;
+        left: 200px;
         font-family: sans-serif;
         font-style: normal;
         font-weight: bold; 
-        font-size: 10px;  
+        font-size: 10px;
+        top: 10px;  
+    }
+    #fButton{
+        position: relative;
+        left: 200px;
+        top: 10px;
     }
     #button{
         position: relative;
-        left: 130px;
+        left: 220px;
         background-color: white;
         color: black;
         font-size: 10px;
     }
     #result{
         position: relative;
-        left: 130px;
+        left: 200px;
         font-family: sans-serif;
         font-style: normal;
         font-weight: bold; 
-        font-size: 10px;  
+        font-size: 10px; 
+        top: 10px; 
     }
     #tempLabel{
         position: relative;
-        left: 130px;
+        left: 200px;
         font-family: sans-serif;
         font-style: normal;
         font-weight: bold; 
-        font-size: 10px;  
+        font-size: 10px;
+        top: 10px;  
     }
-        
-}
+    
+    h1{
+      visibility: hidden;
+    }
+    body{
+        overflow: hidden;
+        background-color: aquamarine;
+        color: black;
+    }    
+    }
